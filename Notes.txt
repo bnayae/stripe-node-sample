@@ -1,0 +1,3 @@
+npm i -S express stripe express-handlebars body-parser
+- npm i -g  nodemon
+- npm i -S dotenv

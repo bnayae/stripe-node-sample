@@ -1,0 +1,19 @@
+<seletion class="py-2">
+    <div class="row">
+        <div class="col md-6 text-center">
+            <h1 class="display-3 mt-3 pt-5">
+                Web Dev Item
+            </h1>
+            <p>best item</p>
+            <form action="/charge" method="POST">
+                <script src="https://checkout.stripe.com/checkout.js" class="stripe-button" data-key="{{keyPublishable}}"
+                    data-amount="10000" data-name="The best item" data-description="something best" data-image="/img/marketplace.png"
+                    data-locale="auto">
+                    </script>
+            </form>
+        </div>
+        <div class="col md-6 text-center">
+            <img src="/img/item.png" class="img-fluid" alt="">
+        </div>
+    </div>
+</seletion>
